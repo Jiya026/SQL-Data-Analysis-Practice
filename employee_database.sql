@@ -26,7 +26,7 @@ create table employees (Emp_Id int primary key, Emp_name varchar(25),Age int, Ge
  (121, 345.5, 3, "Germany"),
  (123, 655.0, 4, "India"),
  (145, 499.0, 10, "Fineland");
-employeeemployee select * from sales;
+ employee select * from sales;
  select product_id, sum(sell_price * quantity) as revenue 
  from sales group by product_id;
  select * from employees;
